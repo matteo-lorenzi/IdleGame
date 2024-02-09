@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Idle Clicker Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="resources">
+      <h2>Resources</h2>
+      <p id="resourceDisplay">0</p>
+      <button id="clickButton">Click!</button>
+    </div>
+
+    <div id="upgrades">
+      <h2>Upgrades</h2>
+      <button id="upgradeButton">Upgrade</button>
+    </div>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Idle Clicker Game</title>
+        <link rel="stylesheet" href="style.css" />
+      </head>
+      <body>
+        <div class="dashboard">
+          <!-- Contenu du résumé du jeu -->
+          <div class="summary">
+            <h2>Game Summary</h2>
+            <p>Time since connection: <span id="timeSinceConnection">0 seconds</span></p>
+            <p>Total resources generated: <span id="totalResources">0</span></p>
+        </div>
+          <!-- Flèche pour cacher la div -->
+          <div class="toggle-arrows">
+            <img
+              src="images/downArrow.png"
+              alt="Toggle"
+              id="hideButton"
+              width="20px"
+            />
+          </div>
+        </div>
+
+        <!-- Flèche pour afficher la div -->
+        <div class="toggle-arrows">
+          <img
+            src="images/upArrow.png"
+            alt="Toggle"
+            id="showButton"
+            class="hidden"
+            width="20px"
+          />
+        </div>
+
+        <script src="script.js"></script>
+      </body>
+    </html>
+
+    <script src="script.js"></script>
+  </body>
+</html>
